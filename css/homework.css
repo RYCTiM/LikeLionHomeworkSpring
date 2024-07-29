@@ -1,0 +1,243 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.assignment_title\.div{
+    width: 620px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.assignment_title{
+    display: flex;
+    font-family: "Gmarket Sans";
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+.book-btn{
+    display: flex;
+    width: 35px;
+    height: 35px;
+}
+
+.assignment_box {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d9d9d9;
+    width: 560px;
+    height: auto;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.assignment_txt\.div{
+    display: block;
+    width: 560px;
+    height: auto;
+}
+
+.line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.assignment_category{
+    font-family: "Noto Sans KR";
+    color: var(--color-main-black);
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.assignment_goal{
+    font-family: "Noto Sans KR";
+    color: var(--color-main-black);
+    font-size: 15px;
+    padding-top: 5px;
+    margin: 0;
+}
+
+.assignment_deadline_date, .assignment_deadline_time{
+    /*"comma"를 통해서 한번에 여러 클래스에 같은 디자인을 적용 가능*/
+    font-family: "Noto Sans KR";
+    color: orange;
+    font-size: 15px;
+    padding-top: 5px;
+    margin: 0;
+}
+
+.assignment_sub\.div{
+    display: block;
+    flex-direction: column;
+}
+
+.assignment_subtitle{
+    font-family: "Noto Sans KR";
+    color: var(--color-main-black);
+    width: 410px;
+    font-size: 18px;
+    margin: 0 auto;/*0 상하, auto좌우 */
+    margin-top: 30px;
+    /*margin과 margin top은 선후 순서가 인식이 되기 때문에*/
+    /*먼저 auto를 하고 30px을 줘야 잘 적용이 된다*/
+    /*auto는 다른 것들을 다 덮혀 씌운다*/
+    font-weight: bold;
+}
+
+.assignment_check_box{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid orange;
+    width: 370px;
+    height: 200px;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px auto;
+    position: relative;
+}
+
+h5 {
+    font-family: "Noto Sans KR";
+    margin: 0px;
+}
+h6{
+    font-family: "Noto Sans KR";
+    font-weight: Normal;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.file_box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: orange;
+    width: 410px;
+    height: 25px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 7px;
+}
+
+.file_name{
+    font-family: "Noto Sans KR";
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: lighter;
+    padding-left: 10px;
+    margin: 0px;
+}
+
+.file_add_div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 410px;
+    margin: 0 auto;
+    margin-top: 5px;
+
+}
+
+
+.file_clip{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.file_add_div{
+    font-family: "Noto Sans KR";
+    color: orange;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.upload_div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 410px;
+    margin: 0 auto;
+
+}
+button{
+    background-color: #fe9519;
+    border:none;
+    border-radius: 4px;
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 10px;
+    color: #ffffff;
+}
+
+.file-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    /*border: 1px solid var(--color-orange-main);*/
+    background-color: orange;
+    width: 410px;
+    height: 25px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.file-name {
+    font-family: "Noto Sans KR";
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: lighter;
+    margin: 10px;
+    white-space: nowrap;
+    color: white;
+}
+.delete-button {
+    cursor: pointer;
+    color: red;
+    font-family: "Noto Sans KR";
+    font-size: 12px;
+    margin: 10px;
+}
+
+
+.assignment_check_box::-webkit-scrollbar {
+    background: inherit;
+}
+
+
+.assignment_check_box::-webkit-scrollbar-thumb {
+    width: 8px;
+    background-color: #fe9519;
+    border-radius: 15px;
+    border: 3px solid #ffffff;
+
+}
+
+.assignment_check_box::-webkit-scrollbar-track{
+    background: inherit;
+}

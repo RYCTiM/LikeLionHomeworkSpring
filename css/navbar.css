@@ -1,0 +1,104 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --color-main-black: #3e3e3e;
+    --color-orange-main: #fe9519;
+}
+
+
+.navbar{
+    background-color: var(--color-main-black);
+    display:flex;
+}
+.kau_likelion_logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+}
+.likelionlogo_btn{
+    width: 60px;
+    height: 60px;
+    background: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-family: "GmarketSansMedium";
+    color: var(--color-orange-main);
+    font-size: 12px;
+}
+
+.homebtn_div{
+    width: 50px;
+    display: block;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-left: auto;
+}
+
+.likelion_title{
+    font-family: "GmarketSansMedium";
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 30px;
+}
+.kau_title{
+    font-family: "GmarketSansMedium";
+    color: #ffffff;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-top: 0px;
+}
+.homework_btn{
+    width: 46px; /*픽셀의 크기 수정 후 정상 작동*/
+    height: 46px; /*넓이와 높이를 조절 한 후에 정상 작동*/
+    background-color: var(--color-main-black);
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    justify-content: center;
+    padding: 0px;
+}
+
+.assignment_backpack{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 6px;
+}
+
+
+.assignment_nav{
+    width: 50px;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: 0px;
+}
+
+.navbar_title_txt{
+    display: block;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding-top: 20px;
+}
+.homework_list {
+    font-family: "GmarketSansMedium";
+    color: #ffffff;
+    font-size: 12px;
+    text-decoration: none;
+}
+

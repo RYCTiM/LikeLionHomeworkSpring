@@ -1,0 +1,186 @@
+@import url('https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css');
+@font-face {
+    font-family: 'WAGURITTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403@1.0/WAGURITTF.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TTHakgyoansimSamulhamR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_keris@1.0/TTHakgyoansimSamulhamR.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DOSPilgiMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/DOSPilgiMedium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PyeongChangPeace-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'establishRetrosansOTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/establishRetrosansOTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.navbar_self_introduction_Junyoung_Seo{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.self_introduction_div{
+    justify-content: center;
+}
+
+.self_introduction_title {
+    flex-direction: column;
+    margin-top: 10px;
+    font-family: "Gmarket Sans";
+    font-weight: bolder;
+    font-size: 65px;
+    color: #ffffff;
+    margin-left: 70px;
+}
+/*.logo{*/
+/*    width: 125px;*/
+/*    height: 125px;*/
+/*    margin-left: -70px;*/
+/*}*/
+.ryctim_logo{
+    width: 125px;
+    height: 125px;
+    border-radius: 90px;
+    /*margin-left: -230px;*/
+    /*justify-content: right;*/
+
+}
+
+
+/*소개 시작*/
+/*인사말*/
+.string_introduction-\>hello{
+    justify-content: center;
+    align-items: flex-start;
+}
+.Hello0{
+    display: flex;
+    justify-content: center;
+    font-family: "WAGURITTF";
+    font-size: 150px;
+    color: aliceblue;
+    /*height: 55px;*/
+    /*margin-top: 160px;*/
+}
+
+.Hello1{
+    display: flex;
+    justify-content: center;
+    font-family: "DOSPilgiMedium";
+    font-size: 140px;
+    color: #e5e5e5;
+    /*height: 155px;*/
+    /*margin-top: px;*/
+}
+.Hello2 {
+    display: flex;
+    justify-content: center;
+    font-family: "PyeongChangPeace-Bold";
+    font-size: 150px;
+    /*height: 155px;*/
+    color: #ffffff;
+    /*margin-top: 10px;*/
+}
+
+/*본문 시작*/
+.main_lecture{
+    /*display: flex;*/
+    font-family: "establishRetrosansOTF";
+    font-size: 50px;
+    color: rgba(155, 251, 255, 0.87);
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: flex-end;
+
+}
+
+.myname\.span{
+    font-size: 70px;
+    color: rgb(70, 177, 255);
+}
+
+.jakgok{
+    font-size: 70px;
+    color: #3bff56;
+}
+
+.tierMaster{
+    font-size: 70px;
+    color: #fffb00;
+}
+
+.overwatch{
+    font-size: 70px;
+    color: #ffffff;
+}
+
+.r2c_time_insta{
+    justify-items: right;
+    width: 225px;
+    height: 225px;
+    border-radius: 80px;
+}
+
+.insta{
+    align-items: center;
+}
+
+.mimi_div_img{
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+
+.mimi_img_1{
+    width: 300px;
+    height: 300px;
+}
+
+.mimi_img_5{
+    width: 230px;
+    height: 300px;
+}
+
+.mimi_img_3{
+    width: 250px;
+    height: 200px;
+}
+
+.mimi_img_4{
+    width: 250px;
+    height: 250px;
+}
+
+.mimi_img_2{
+    width: 300px;
+    height: 200px;
+}
+
+.mimi_introduce_div{
+    font-family: "establishRetrosansOTF";
+    font-size: 50px;
+    color: rgba(155, 251, 255, 0.87);
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: flex-end;
+}

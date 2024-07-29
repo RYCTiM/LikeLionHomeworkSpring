@@ -1,0 +1,93 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SBAggroB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+:root{
+    --color-main-black: #252323FF;
+    --color-orange-main: #fe9519;
+}
+/*줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄*/
+/*줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄*/
+/*줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄*/
+/*줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄*/
+/*줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄줄*/
+/*.background_body{*/
+/*    background-color: #3e3e3e;*/
+/*}*/
+
+/*여기부터 수정해봤습니다*/
+.footerbar{
+    background-color:var(--color-main-black);
+    display: flex;
+    height: 100px;
+    text-align: center;
+}
+
+.footer_menus{
+    /*background-color: var(--color-main-black);*/
+    font-family: "Gmarket Sans";
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.footertitle{
+    font-family: "Gmarket Sans";
+    color: #ffffff;
+    font-size: 40px;
+    display: flex;
+    font-weight: normal;
+    justify-content: center;
+    margin-top: 100px;
+    /*letter-spacing: 20px;*/
+    /*font-stretch: expanded;폰트에서 이 기능을 지원 안 하는 관계로 주석*/
+    /*background-color: var(--color-main-black);*/
+}
+
+.babylion_introduction{
+    display: flex;
+    font-family: "Gmarket Sans";
+    font-size: 30px;
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+.KAU_LikeLion{
+    display: flex;
+    font-family: "Gmarket Sans";
+    font-size: 30px;
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+    margin-left: 70px;
+}
+
+.Likelion_uni{
+    display: flex;
+    font-family: "Gmarket Sans";
+    font-size: 30px;
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+}

@@ -1,0 +1,276 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.homework_submit_title{
+    color: #ffffff;
+    display:flex;
+    width: 100px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 70px;
+    align-content: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+.homework_list_div {
+    justify-content: center;
+    align-items: center;
+    /*color: black;*/
+    margin-top: 30px;
+    /*margin-right: auto;*/
+    /*margin-left: auto;*/
+    /*width: auto;*/
+    /*height: auto;*/
+    display: flex;
+    /*padding: 5px;*/
+}
+
+.book-btn{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    display: flex;
+}
+
+.homework_list{
+    justify-content: center;
+
+    /*display: flex;*/
+    /*margin-right: 60px;*/
+}
+
+
+
+
+
+
+
+.list_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+
+.list_of_homework\.div {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #d9d9d9;
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+.line{
+    /*margin: auto;*/
+    display: flex;
+}
+
+
+
+
+
+
+
+
+.list_of_homework\.div{
+    display: inline-flex;
+    justify-items: auto;
+}
+
+.list_git{
+    width: 300px;
+    height: auto;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.list_git_deadline{
+    width: 300px;
+    height: auto;
+    display: flex;
+    color: #fe9519;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.list_git_sub_reposi{
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.list_of_homework2\.div {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #d9d9d9;
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+.line2{
+    margin: auto;
+    display: flex;
+}
+
+.list_of_homework2\.div{
+    display: inline-flex;
+    justify-items: auto;
+}
+
+.list_html{
+    width: 300px;
+    height: auto;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.list_html_deadline2{
+    width: 300px;
+    height: auto;
+    display: flex;
+    color: #fe9519;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.list_html_sub_reposi2{
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.list_of_homework3\.div {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #d9d9d9;
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+.line3{
+    margin: auto;
+    display: flex;
+}
+
+.list_of_homework3\.div{
+    display: inline-flex;
+    justify-items: auto;
+}
+
+.list_JS{
+    width: 300px;
+    height: auto;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.list_JS_deadline3{
+    width: 300px;
+    height: auto;
+    display: flex;
+    color: #fe9519;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.list_JS_sub_reposi3{
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+
+}
+
+.list_of_homework4\.div {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #d9d9d9;
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+.line4{
+    margin: auto;
+    display: flex;
+}
+
+.list_of_homework4\.div{
+    display: inline-flex;
+    justify-items: auto;
+}
+
+.list_java{
+    width: 300px;
+    height: auto;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.list_java_deadline4{
+    width: 300px;
+    height: auto;
+    display: flex;
+    color: #fe9519;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.list_java_sub_reposi4{
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
