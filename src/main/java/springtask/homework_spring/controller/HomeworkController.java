@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @Slf4j
 public class HomeworkController {
-    @RequestMapping("localhost:8080")
+    @RequestMapping("/")
     public String home(){
         return "homework.html";
     }
